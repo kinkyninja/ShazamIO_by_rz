@@ -13,19 +13,23 @@ include = [
     "LICENSE.txt"
 ]
 
-[tool.poetry.dependencies]
+[
+tool.poetry.dependencies
+]
 python = "^3.8"
 numpy = "^1.24.0"
-aiohttp = "^3.8.3"
+aiohttp = "^3.9.0"
 pydub = "^0.25.1"
 dataclass-factory = "2.16"
 aiofiles = "23.2.1"
 anyio = "4.3.0"
-pydantic = "^1.10.2"
+pydantic = ">=2.4.1,<2.10"
 shazamio-core = "^1.0.7"
 aiohttp-retry = "^2.8.3"
 
-[tool.poetry.dev-dependencies]
+[
+tool.poetry.dev-dependencies
+]
 black = {version = "^24.2.0", allow-prereleases = true}
 pytest = "8.1.2"
 pytest-asyncio = "^0.23.6"
